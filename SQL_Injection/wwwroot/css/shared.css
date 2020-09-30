@@ -1,0 +1,14 @@
+html{
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a{
+    color: rgba(19, 82, 255, 0.767);
+    text-decoration: none;
+}

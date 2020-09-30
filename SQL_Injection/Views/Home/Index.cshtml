@@ -1,0 +1,102 @@
+﻿@{Layout = null;}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <meta content="utf-8" http-equiv="encoding">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic|Poppins|Raleway|Titillium+Web" rel="stylesheet">
+    <link rel="stylesheet" href="css/shared.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="~/css/inject-step.css">
+</head>
+<body>
+    <div class="container">
+        <a href="#" id="btnBack">Go back</a>
+        <div id="home-step">
+            <p class="text_description">
+                Web aplication I made for web devs to testing sql injection and to see differeces between three different aproaches.
+                In easy mode, you can do full sql injection, if you have knowlege about sql injection. If not, read this
+                <a target="_blank" href="https://www.netsparker.com/blog/web-security/sql-injection-cheat-sheet/">article</a> and learn something new.
+                <br />If you do not want to explore sql injection, this is not web application for you.
+            </p>
+
+            <div class="group_btn">
+                <a href="#" class="btn" id="btnEasyMode">EASY MODE</a>
+                <a href="#" class="btn" id="btnHardMode">HARD MODE</a>
+                <a href="#" class="btn" id="btnExpertMode">EXPERT MODE</a>
+            </div>
+
+            <div id="platform" style="display: none">
+                <table style="text-align: left; border-collapse:collapse">
+                    <tr>
+                        <th>PLATFORM</th>
+                        <td>ASP.NET core</td>
+                    </tr>
+                    <tr>
+                        <th>PLATFORM VERSION</th>
+                        <td>2.2</td>
+                    </tr>
+                    <tr>
+                        <th>DATABASE</th>
+                        <td>MS SQL</td>
+                    </tr>
+                    <tr>
+                        <th>ORM</th>
+                        <td>Entity framework core</td>
+                    </tr>
+                    <tr>
+                        <th>ORM version</th>
+                        <td>2.2.4</td>
+                    </tr>
+                </table>
+            </div>
+
+
+        </div> <!--end home div-->
+
+        <div id="inject-step" hidden>
+            <p class="text_description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Eum veniam vitae, soluta ea omnis numquam voluptate nemo ad, eaque sint,
+                praesentium tempora eius corrupti expedita itaque mollitia magni! Tenetur, dolor.
+            </p>
+            <div id="inpt_search">
+                <input type="text" autocomplete="off" id="search" placeholder="Search for product or try sql injection ... type 'Drink' without quotes">
+            </div>
+            <a href="#" id="btnSearch" class="btn">Search</a>
+        </div>
+
+
+
+        <div class="text_author">
+            <p>
+                Made in Bosnia and Herzegovina with
+                <span style="color: red"><i class="fas fa-heart"></i></span>
+                by
+                <a href="https://www.linkedin.com/in/velid-duranovi%C4%87/" target="_blank" style="font-weight: bold">Velid Duranović</a>
+            </p>
+        </div>
+    </div>   <!-- end container-->
+
+    <div id="console" hidden>
+        <a href="#" id="btnCloseConsole" style="font-size: 11px">CLOSE CONSOLE</a>
+        <div id="showData">
+            <span id="affectedRowMessage"></span>
+            <table id="ShowDataTable">
+                <tr>
+                    <th></th>
+                    <th>Column 1</th>
+                    <th>Column 2</th>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <script src="~/js/index.js"></script>
+</body>
+</html>

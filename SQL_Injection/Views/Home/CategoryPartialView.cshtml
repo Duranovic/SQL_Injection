@@ -1,0 +1,11 @@
+﻿@model List<SQL_Injection.Models.CategoryViewModel>
+
+@{ var iterator = 1;}
+@foreach (var item in Model)
+{
+    <tr class="rowData">
+        <td>@iterator @{iterator++;}</td>
+        <td>@item.CategoryID</td>
+        <td>@item.Name</td>
+    </tr>
+}

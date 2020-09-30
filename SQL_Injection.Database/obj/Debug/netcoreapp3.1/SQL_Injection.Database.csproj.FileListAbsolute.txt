@@ -1,0 +1,12 @@
+/Users/infinitymesh/Desktop/Old Projects/SQL_Injection/SQL_Injection.Database/bin/Debug/netcoreapp3.1/SQL_Injection.Database.deps.json
+/Users/infinitymesh/Desktop/Old Projects/SQL_Injection/SQL_Injection.Database/bin/Debug/netcoreapp3.1/SQL_Injection.Database.dll
+/Users/infinitymesh/Desktop/Old Projects/SQL_Injection/SQL_Injection.Database/bin/Debug/netcoreapp3.1/SQL_Injection.Database.pdb
+/Users/infinitymesh/Desktop/Old Projects/SQL_Injection/SQL_Injection.Database/obj/Debug/netcoreapp3.1/SQL_Injection.Database.csprojAssemblyReference.cache
+/Users/infinitymesh/Desktop/Old Projects/SQL_Injection/SQL_Injection.Database/obj/Debug/netcoreapp3.1/SQL_Injection.Database.AssemblyInfoInputs.cache
+/Users/infinitymesh/Desktop/Old Projects/SQL_Injection/SQL_Injection.Database/obj/Debug/netcoreapp3.1/SQL_Injection.Database.AssemblyInfo.cs
+/Users/infinitymesh/Desktop/Old Projects/SQL_Injection/SQL_Injection.Database/obj/Debug/netcoreapp3.1/SQL_Injection.Database.csproj.CoreCompileInputs.cache
+/Users/infinitymesh/Desktop/Old Projects/SQL_Injection/SQL_Injection.Database/obj/Debug/netcoreapp3.1/SQL_Injection.Database.dll
+/Users/infinitymesh/Desktop/Old Projects/SQL_Injection/SQL_Injection.Database/obj/Debug/netcoreapp3.1/SQL_Injection.Database.pdb
+/Users/infinitymesh/Desktop/Old Projects/SQL_Injection/SQL_Injection.Database/bin/Debug/netcoreapp3.1/SQL_Injection.Database.runtimeconfig.json
+/Users/infinitymesh/Desktop/Old Projects/SQL_Injection/SQL_Injection.Database/bin/Debug/netcoreapp3.1/SQL_Injection.Database.runtimeconfig.dev.json
+/Users/infinitymesh/Desktop/Old Projects/SQL_Injection/SQL_Injection.Database/obj/Debug/netcoreapp3.1/SQL_Injection.Database.genruntimeconfig.cache

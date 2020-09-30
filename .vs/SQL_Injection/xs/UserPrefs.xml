@@ -1,0 +1,24 @@
+﻿<Properties StartupConfiguration="{994B4D2E-1937-4C9A-B7ED-4CA4B8B26F12}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="SQL_Injection/Controllers/HomeController.cs">
+    <Files>
+      <File FileName="SQL_Injection/Controllers/HomeController.cs" Line="8" Column="30" />
+      <File FileName="SQL_Injection/wwwroot/js/index.js" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="SQL_Injection" expanded="True">
+            <Node name="SQL_Injection.Database" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.SQL__Injection PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
