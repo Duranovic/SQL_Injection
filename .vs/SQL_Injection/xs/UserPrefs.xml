@@ -1,14 +1,27 @@
 ﻿<Properties StartupConfiguration="{994B4D2E-1937-4C9A-B7ED-4CA4B8B26F12}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="SQL_Injection/Controllers/HomeController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="SQL_Injection/wwwroot/css/index.css">
     <Files>
       <File FileName="SQL_Injection/Controllers/HomeController.cs" Line="8" Column="30" />
       <File FileName="SQL_Injection/wwwroot/js/index.js" />
+      <File FileName="SQL_Injection/Views/Home/Index.cshtml" Line="100" Column="34" />
+      <File FileName="SQL_Injection/wwwroot/css/shared.css" Line="15" Column="1" />
+      <File FileName="SQL_Injection/wwwroot/css/inject-step.css" Line="1" Column="1" />
+      <File FileName="SQL_Injection/wwwroot/css/index.css" Line="14" Column="2" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="SQL_Injection" expanded="True">
-            <Node name="SQL_Injection.Database" expanded="True" />
+            <Node name="SQL_Injection" expanded="True">
+              <Node name="Views" expanded="True">
+                <Node name="Home" expanded="True" />
+              </Node>
+              <Node name="wwwroot" expanded="True">
+                <Node name="css" expanded="True">
+                  <Node name="index.css" selected="True" />
+                </Node>
+              </Node>
+            </Node>
           </Node>
         </State>
       </Pad>

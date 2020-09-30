@@ -22,10 +22,13 @@ btnExpertMode.onclick = function () {
 
 // Go back to home step
 btnBack.onclick = function () {
-    homeStep.style.display = "block";
-    injectStep.style.display = "none";
-    btnBack.style.display = "none";
-    $("#search").val(""); 
+    document.getElementsByClassName("animation-overlay")[0].classList.toggle("show");
+    setTimeout(function () {
+        homeStep.style.display = "block";
+        injectStep.style.display = "none";
+        btnBack.style.display = "none";
+        $("#search").val(""); 
+    }, 500)
 }
 
 // Closing and clearing console
@@ -100,9 +103,11 @@ function Success(result) {
 }
 
 function ShowInjectStep(modeParam) {
-    homeStep.style.display = "none";
-    injectStep.style.display = "block";
-    btnBack.style.display = "block";
-
-    mode = modeParam;
+    document.getElementsByClassName("animation-overlay")[0].classList.toggle("show");
+    setTimeout(function () {
+        homeStep.style.display = "none";
+        injectStep.style.display = "block";
+        btnBack.style.display = "block";
+        mode = modeParam;
+    }, 500)
 }
